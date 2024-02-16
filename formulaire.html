@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulaire</title>        
+</head>
+<body>
+ 
+<fieldset>
+    <h1>Formulaire d'inscription </h1>
+ 
+        <form action="" id ="myForm">
+   
+            <div class="form1">
+ 
+       
+            <div><label class="nom"for="user_name">Nom</label>                        
+            <input type="text" id="lenom" name="user_name" required /></div>    
+         
+            <div><label class="prenom" for="user_prenom">Prénom</label>
+            <input type="text" id="leprenom" name="user_prenom" required /></div>
+ 
+            <div><label class="mdp" for="user_mdp">Mot de passe</label>
+                <input type="password" id="password" name="user_mdp" required /></div>
+                <button id="hide">Montrer</button>
+                
+                <p id="mdpErreur"> </p>
+   
+          <input type="submit" value="S'inscrire" id="subButton">
+          <div id="result"></div>
+        </br>
+ 
+    </form>
+ 
+</fieldset>
+   <script src="script.js"></script>
+    </div>
+</body>
+</html>

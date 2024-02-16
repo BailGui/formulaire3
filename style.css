@@ -1,0 +1,94 @@
+body{
+    background-image: url(https://cdn.cbeditz.com/cbeditz/large/black-white-minimalist-background-hd-free-wallpapers-hjcxz.jpg);
+}
+ 
+fieldset{
+    border-style: solid black;
+    border-radius: 20px;
+    border-width: 50px;
+
+ 
+}
+ 
+h2{
+    margin-top: 0%;
+    margin-bottom: 0%;
+    color: white;
+   
+}
+ 
+.form1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 0%;
+      
+}
+
+.form2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25%;
+}
+
+ 
+#lenom, #leprenom, #ddn, #password{
+    width: 600px;
+    height: 20px;
+    border-radius: 10px;
+   
+}
+ 
+h1 {
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size:x-large;
+}
+ 
+label{
+    color: black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 5px;  
+}
+
+#togglePassword{
+    border-radius: 10px;
+    margin-left: 31%;
+    margin-top: 1%;
+
+}
+
+#subButton{
+    margin-top: 20px;
+    width: 150px;
+    border-radius: 20px;
+}
+ 
+.date{
+    margin-right: 475px;
+}
+ 
+.nom{
+    margin-right: 555px;
+ 
+}
+ 
+.prenom{
+    margin-right: 540px;
+}
+ 
+.mdp{
+    margin-right: 505px;
+}
+
+#mdpErreur{
+    color: red;
+}
